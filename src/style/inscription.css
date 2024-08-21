@@ -1,0 +1,14 @@
+form {
+    font-weight: bold;
+
+}
+
+form label {}
+
+.passwordFalse {
+    color: red;
+}
+
+.passwordTrue {
+    color: green;
+}

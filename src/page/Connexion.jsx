@@ -14,7 +14,13 @@ import { Link } from "react-router-dom";
 
 
 
+
+
+
+
 export default function Connexion() {
+
+
 
 
 
@@ -73,7 +79,7 @@ export default function Connexion() {
 
                 <button type="submit" onClick={(e) => { handlSubmit(e) }}>Connexion </button>
                 <button type="submit" onClick={(e) => { handlSubmitGoogle(e) }}> Se connecter avec google <FontAwesomeIcon icon={faGoogle} className="google-icon" /></button>
-                <Link to="Inscription">
+                <Link to="/Inscription">
                     <button > S'inscrire ? </button>
                 </Link>
             </form >

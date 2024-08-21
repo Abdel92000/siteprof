@@ -10,8 +10,13 @@ import Apropos from "./page/Apropos.jsx";
 import Planning from "./page/Planning.jsx";
 import Footer from "./components/Footer.jsx";
 import TarifParticulier from "./page/TarifParticulier.jsx";
+import Inscription from "./page/Inscription.jsx";
 import { Routes, Route } from "react-router-dom";
-import Inscritpion from "./page/Inscription.jsx";
+
+
+
+
+
 
 
 
@@ -30,7 +35,9 @@ function App() {
         <Route path="Planning" element={<Planning />} />
         <Route path="TarifParticulier" element={<TarifParticulier />} />
         <Route path="A" element={<Planning />} />
-        <Route path="Inscription" element={<Inscritpion />} />
+
+        <Route path="Inscription" element={<Inscription />} />
+
 
 
 
