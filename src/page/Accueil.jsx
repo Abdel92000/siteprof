@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Slogant from "../components/Slogant";
 import SearchBar from "../components/Search-bar";
-
+import "../style/acceuil.css"
 import villesAutourDeNanterre from "../utils/ville";
 
 import niveauScolaires from "../utils/niveau.js";
@@ -13,6 +13,7 @@ import imgStage from "./imgStage.jpg"
 import imgToussaint from "./imgToussaint.jpg"
 import imgfr from "./27099.jpg"
 import { Link } from 'react-router-dom';
+import Stage from "./StagePréRentrée.jsx";
 
 
 
@@ -94,6 +95,7 @@ export default function Accueil() {
 
 
 
+
             <div className="containerOfrres">
                 <div className="titleOffres"> Découvrir les offres  !
                 </div>
@@ -116,6 +118,7 @@ export default function Accueil() {
                         srcImg={imgStage}
                         title="STAGES DE PRÉ-RENTRÉE"
                         text="4 ou 5 jours pour passer au crible toutes les notions importantes de l'année et se remettre progressivement dans le bain, voilà un programme 100% gagnant pour la rentrée !"
+                        link={"Stage"}
                     />
 
 
@@ -123,6 +126,7 @@ export default function Accueil() {
                         srcImg={imgToussaint}
                         title="STAGES DE TOUSSAINT"
                         text="Nouveaux chapitres un peu difficiles, premières notes décevantes… On réagit dès les vacances de la Toussaint pour éviter l’effet boule de neige !"
+
                     />
                 </div>
             </div>

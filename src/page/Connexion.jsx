@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-
+import lock from "./lock.png"
 
 
 
@@ -54,7 +54,7 @@ export default function Connexion() {
             console.log("voici userinfos =>", userinfo)
             const token = await userinfo.user.getIdToken()
             console.log("voici le token =>", token)
-
+            window.location.href = '/';
 
         } catch (error) {
             console.log("une erreur est survenue lors de l'authentification", error)
@@ -77,7 +77,7 @@ export default function Connexion() {
                 <input type="password" onChange={(e) => { setPassword(e.target.value); }}
                 />
 
-                <button type="submit" onClick={(e) => { handlSubmit(e) }}>Connexion </button>
+                <button type="submit" onClick={(e) => { handlSubmit(e) }} className="btn-connexion">Connexion  <img src={lock} alt="" className="lock-3D" /> </button>
                 <button type="submit" onClick={(e) => { handlSubmitGoogle(e) }}> Se connecter avec google <FontAwesomeIcon icon={faGoogle} className="google-icon" /></button>
                 <Link to="/Inscription">
                     <button > S'inscrire ? </button>

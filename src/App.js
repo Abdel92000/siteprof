@@ -12,6 +12,7 @@ import Footer from "./components/Footer.jsx";
 import TarifParticulier from "./page/TarifParticulier.jsx";
 import Inscription from "./page/Inscription.jsx";
 import { Routes, Route } from "react-router-dom";
+import StagePréRentrée from "./page/StagePréRentrée.jsx"
 
 
 
@@ -35,8 +36,9 @@ function App() {
         <Route path="Planning" element={<Planning />} />
         <Route path="TarifParticulier" element={<TarifParticulier />} />
         <Route path="A" element={<Planning />} />
-
         <Route path="Inscription" element={<Inscription />} />
+        <Route path="Stage" element={<StagePréRentrée />} />
+
 
 
 

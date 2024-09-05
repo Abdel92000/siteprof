@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 function cardOffres({ title, text, srcImg, link }) {
 
 
@@ -21,7 +22,7 @@ function cardOffres({ title, text, srcImg, link }) {
 
             <div className="btnCardOffres">
                 <Link to={link}>
-                    <button className='btnTarif'>Voir mon tarif</button>
+                    <button className='btnTarif'> Voir mon tarif </button>
                 </Link>
             </div>
         </div>

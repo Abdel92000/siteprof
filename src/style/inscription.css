@@ -5,10 +5,10 @@ form {
 
 form label {}
 
-.passwordFalse {
+.malFormedPassword {
     color: red;
 }
 
-.passwordTrue {
+.rightPassword {
     color: green;
 }

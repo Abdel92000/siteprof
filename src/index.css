@@ -554,6 +554,10 @@ footer ul {
   cursor: pointer;
 }
 
+.btnTarif text {
+  color: red;
+}
+
 .imgCardOffres {
   object-fit: cover;
   height: 200px;
@@ -784,4 +788,8 @@ li {
 
 .btn-reserver-visio:hover {
   opacity: 0.5;
+}
+
+.euro-3D {
+  height: 80px;
 }
