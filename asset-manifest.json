@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/siteprof/static/css/main.9c28753d.css",
+    "main.js": "/siteprof/static/js/main.2aebe5b8.js",
+    "static/media/imgPrimaire.jpg": "/siteprof/static/media/imgPrimaire.56859007f02c9e5fc1b0.jpg",
+    "static/media/lock.png": "/siteprof/static/media/lock.b0a3888fec9788af7220.png",
+    "static/media/27099.jpg": "/siteprof/static/media/27099.84822a871c524608f1ca.jpg",
+    "static/media/imgEleveVisio..jpg": "/siteprof/static/media/imgEleveVisio..f449008372e02349d863.jpg",
+    "static/media/imgStage.jpg": "/siteprof/static/media/imgStage.23317d5955750deff57f.jpg",
+    "static/media/imgToussaint.jpg": "/siteprof/static/media/imgToussaint.56ac5df387f6d81d62b0.jpg",
+    "static/media/imgStageVisio.jpeg": "/siteprof/static/media/imgStageVisio.da9fa5235fa814cb905b.jpeg",
+    "index.html": "/siteprof/index.html",
+    "main.9c28753d.css.map": "/siteprof/static/css/main.9c28753d.css.map",
+    "main.2aebe5b8.js.map": "/siteprof/static/js/main.2aebe5b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c28753d.css",
+    "static/js/main.2aebe5b8.js"
+  ]
+}
