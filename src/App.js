@@ -1,5 +1,3 @@
-
-
 import Navbar from "./components/Navbar.jsx";
 
 import Accueil from "./page/Accueil.jsx";
